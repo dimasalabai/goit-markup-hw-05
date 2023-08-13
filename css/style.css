@@ -704,6 +704,9 @@ textarea {
 
 .modal-form {
 }
+.modal-input-field {
+	margin-bottom: 8px;
+}
 
 .modal-label {
 	color: #8e8f99;
@@ -715,7 +718,6 @@ textarea {
 }
 .modal-input-wrap {
 	position: relative;
-	margin-bottom: 8px;
 }
 .modal-input {
 	width: 100%;
