@@ -6,6 +6,7 @@
 	--bg-color: #ffff;
 	--bg-button: #f4f4fd;
 	--border-button: #e7e9fc;
+	--checkbox: #404bbf;
 }
 
 /* ----RESET STYLES---- */
@@ -789,8 +790,8 @@ input::placeholder {
 	font-weight: 400;
 	line-height: 1.17;
 	letter-spacing: 0.48px;
-	display: inline-flex;
-	align-items: center;
+	/* display: inline-flex;
+	align-items: center; */
 }
 
 .check {
@@ -812,7 +813,7 @@ input::placeholder {
 
 .modal-check:checked + .modal-label-check .check {
 	border: none;
-	background-color: var(--brand-color);
+	background-color: var(--checkbox);
 	fill: var(--bg-button);
 }
 
